@@ -1,15 +1,5 @@
 import React, { useState } from "react";
-import {
-  Card,
-  CardImg,
-  CardText,
-  CardBody,
-  CardTitle,
-  CardSubtitle,
-  Collapse,
-  CardHeader,
-  Button
-} from "reactstrap";
+import { Card, CardBody, CardSubtitle, Collapse, Button } from "reactstrap";
 
 const StarWarsCard = ({ person }) => {
   const [isOpen, setIsOpen] = useState(false);

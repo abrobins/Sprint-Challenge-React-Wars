@@ -1,20 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import StarWarsCard from "./StarWarsCard";
-import {
-  Card,
-  CardImg,
-  CardText,
-  CardBody,
-  CardTitle,
-  CardSubtitle,
-  CardGroup,
-  CardDeck,
-  CardColumns,
-  Row,
-  Col,
-  Button
-} from "reactstrap";
 
 export default function StarWarsPeople() {
   const [people, setPeople] = useState([]);
