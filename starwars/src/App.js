@@ -14,6 +14,9 @@ const App = () => {
     <div className="App">
       <h1 className="Header">React Wars</h1>
       <hr />
+      <h5 className="AnnouncementText">
+        Press each button below to toggle character data
+      </h5>
       <div className="PeopleCard">
         <StarWarsPeople />
       </div>

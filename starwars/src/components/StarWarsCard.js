@@ -18,7 +18,6 @@ const StarWarsCard = ({ person }) => {
 
   return (
     <div className="testClass">
-      <p></p>
       <Button color="primary" onClick={toggle} style={{ marginBottom: "1rem" }}>
         {person.name}
       </Button>
