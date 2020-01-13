@@ -39,6 +39,7 @@ const StarWarsCard = ({ person }) => {
           <CardSubtitle>Eye Color: {person.eye_color}</CardSubtitle>
         </CardBody>
       </Card> */}
+      <p>&nbsp;</p>
     </div>
   );
 };
